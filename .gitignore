@@ -1,9 +1,25 @@
 # Python
-venv/
 __pycache__/
 *.py[cod]
-*.env
-.DS_Store
+*.pyo
+*.pyd
 
-# VS Code
+# Virtual environments
+venv/
+env/
+
+# FastF1 cache
+cache/
+*.ff1pkl
+*.sqlite
+fastf1_http_cache.sqlite
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VSCode
 .vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
